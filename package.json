@@ -1,0 +1,18 @@
+{
+	"name": "@valenced/themes-api",
+	"version": "1.0.0",
+	"description": "Lets theme plugins provide color themes, font packs, icon packs, and emoji packs.",
+	"license": "GPL-3.0",
+	"types": "./api.d.ts",
+	"exports": {
+		".": {
+			"types": "./api.d.ts"
+		},
+		"./types": {
+			"types": "./types.d.ts"
+		}
+	},
+	"peerDependencies": {
+		"@valenced/types": "git+https://github.com/Valenced/valenced-types.git"
+	}
+}
